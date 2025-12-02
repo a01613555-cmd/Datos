@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 st.write(''' # Predicción de gastos ''')
-st.image("imagen.jpg", caption="El Titanic navegaba desde Southampton, Inglaterra, hasta Nueva York en Estados Unidos.")
+st.image("imagen.webp", caption="El Titanic navegaba desde Southampton, Inglaterra, hasta Nueva York en Estados Unidos.")
 
 st.header('Datos de evaluación')
 
