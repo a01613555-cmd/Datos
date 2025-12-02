@@ -16,13 +16,13 @@ def user_input_features():
   Tiempo_invertido = st.number_input('Tiempo invertido:', min_value=0.0, max_value=100000.0, value = 0.0, step = 1.0)
   Tipo = st.number_input('Tipo (Alimentos/salud, ahorro/inversión, ejercicio/deporte, entretenimiento/ocio, académico, transporte):', min_value=0.0, max_value=100.0, value = 0.0, step = 1.0)
   Momento = st.number_input('Momento',min_value=0.0, max_value=3.0, value = 0.0, step = 1.0)
-  No. de personas = st.number_input('No. de personas:', min_value=0.0, max_value=100.0, value = 0.0, step = 1.0)
+  No_de_personas = st.number_input('No. de personas:', min_value=0.0, max_value=100.0, value = 0.0, step = 1.0)
 
   user_input_data = {'Presupuesto': Presupuesto,
                      'Tiempo invertido': Tiempo_invertido,
                      'Tipo (Alimentos/salud, ahorro/inversión, ejercicio/deporte, entretenimiento/ocio, académico, transporte)': Tipo,
                      'Momento': Momento,
-                     'No. de personas': No. de personas}
+                     'No. de personas': No_de_personas}
 
   features = pd.DataFrame(user_input_data, index=[0])
 
